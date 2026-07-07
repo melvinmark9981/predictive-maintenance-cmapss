@@ -1,0 +1,3 @@
+# Extra dependencies needed only to retrain the model (python train.py).
+-r requirements.txt
+shap>=0.44

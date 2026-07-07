@@ -1,0 +1,25 @@
+{
+  "window": 30,
+  "rul_cap": 125,
+  "feature_cols": [
+    "s2",
+    "s3",
+    "s4",
+    "s7",
+    "s8",
+    "s9",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+  ],
+  "data_source": "synthetic",
+  "test_rmse": 8.91,
+  "test_mae": 6.87,
+  "importance_method": "SHAP (GradientExplainer)",
+  "seed": 42
+}
