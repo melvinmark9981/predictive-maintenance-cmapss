@@ -1,6 +1,8 @@
 # Runtime dependencies (Streamlit Cloud). Training-only deps are in requirements-train.txt.
+# Inference uses onnxruntime (not tensorflow) so the deployed app installs cleanly
+# on any Python version, including ones newer than TensorFlow currently supports.
 streamlit>=1.37,<2
-tensorflow-cpu>=2.16,<2.22
+onnxruntime>=1.18
 scikit-learn>=1.3
 plotly>=5.18,<6
 pandas>=2.0

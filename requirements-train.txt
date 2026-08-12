@@ -1,3 +1,7 @@
 # Extra dependencies needed only to retrain the model (python train.py).
+# Training uses TensorFlow/Keras; the trained model is exported to ONNX for
+# deployment, so these are NOT needed by the deployed app (see requirements.txt).
 -r requirements.txt
+tensorflow-cpu>=2.16,<2.22
+tf2onnx>=1.16
 shap>=0.44

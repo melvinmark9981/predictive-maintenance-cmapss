@@ -18,8 +18,8 @@
     "s21"
   ],
   "data_source": "synthetic",
-  "test_rmse": 8.91,
-  "test_mae": 6.87,
+  "test_rmse": 8.45,
+  "test_mae": 6.24,
   "importance_method": "SHAP (GradientExplainer)",
   "seed": 42
 }
